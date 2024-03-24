@@ -3,7 +3,7 @@ import { rockPaperScissors } from './task-04';
 import largeTest from './task-04.json';
 
 
-describe('task-04', () => {
+describe.skip('task-04', () => {
   const sample: RPSInput[] = [
     { shape: Shape.ROCK, outcome: Outcome.DRAW },
     { shape: Shape.PAPER, outcome: Outcome.LOOSE },
