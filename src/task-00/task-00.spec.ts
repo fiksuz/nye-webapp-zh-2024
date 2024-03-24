@@ -11,7 +11,7 @@ const TESTS = [
   }
 ];
 
-describe.skip('task-00', () => {
+describe('task-00', () => {
   it('should export the oddsAndEvens function', () => {
     expect(oddsAndEvens).toBeDefined();
     expect(typeof oddsAndEvens).toBe('function');
